@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <!--模块加载引擎-->
+       <bean id="moduleLoader" name="moduleLoader" class="com.alipay.jarslink.api.impl.ModuleLoaderImpl" />
+
+       <!--模块管理器-->
+       <bean id="moduleManager" name="moduleManager" class="com.alipay.jarslink.api.impl.ModuleManagerImpl" />
+
+       <!--可以通过该对象获取所有模块信息-->
+       <bean id="moduleRefreshScheduler" name="moduleRefreshScheduler" class="com.alibaba.service.ModuleRefreshSchedulerImpl">
+              <property name="moduleLoader" ref="moduleLoader" />
+              <property name="moduleManager" ref="moduleManager" />
+       </bean>
+
+</beans>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jarslink-demo.iml" filepath="$PROJECT_DIR$/jarslink-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarslink-demo-action/jarslink-demo-action.iml" filepath="$PROJECT_DIR$/jarslink-demo-action/jarslink-demo-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarslink-demo-anno-action/jarslink-demo-anno-action.iml" filepath="$PROJECT_DIR$/jarslink-demo-anno-action/jarslink-demo-anno-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jarslink-demo-api/jarslink-demo-api.iml" filepath="$PROJECT_DIR$/jarslink-demo-api/jarslink-demo-api.iml" />
+    </modules>
+  </component>
+</project>
